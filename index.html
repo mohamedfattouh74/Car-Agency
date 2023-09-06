@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Car Agency</title>
+    <link href="assets/img/home.png" rel="icon" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="flex mt-10 mx-32 max-md:mx-12 sticky top-0 z-50">
+      <a href="#" class="flex justify-start"
+        ><img class="w-8" src="assets/img/white-wheel.svg" />
+        <p class="text-white text-xl font-bold">Elecar</p>
+      </a>
+
+      <div class="ms-auto">
+        <ul class="flex space-x-10 max-md:hidden">
+          <li>
+            <a
+              href="#home"
+              class="text-white font-semibold text-lg hover:text-blue-500"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="text-white font-semibold text-lg hover:text-blue-500"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#popular"
+              class="text-white font-semibold text-lg hover:text-blue-500"
+              >Popular</a
+            >
+          </li>
+          <li>
+            <a
+              href="#features"
+              class="text-white font-semibold text-lg hover:text-blue-500"
+              >Feature</a
+            >
+          </li>
+        </ul>
+        <img class="w-8 md:hidden" src="assets/img/hamburger.svg" />
+      </div>
+    </nav>
+
+    <main id="home" class="main mt-10">
+      <h1 class="main-title text-white text-center text-3xl font-bold">
+        Choose The Best Car
+      </h1>
+      <p
+        class="main-subtitle text-white text-center text-xl font-semibold mt-2"
+      >
+        Porsche Mission E
+      </p>
+      <div class="main-description electric-car flex justify-center mt-2">
+        <img class="w-4 me-1" src="assets/img/electricity-blue.svg" />
+        <p class="text-gray-400 text-center text-sm">Electric Car</p>
+      </div>
+
+      <img class="main-img w-80 mx-auto mt-6" src="assets/img/home.png" />
+
+      <section
+        class="main-data grid grid-cols-3 w-1/2 mx-auto mt-4 max-md:w-full"
+      >
+        <div>
+          <img class="w-8 mx-auto mb-5" src="assets/img/temperature.svg" />
+          <h1 class="text-white text-center text-4xl mb-2">24&deg;</h1>
+          <p class="text-gray-400 text-center text-xs font-bold">TEMPERATURE</p>
+        </div>
+        <div>
+          <img class="w-8 mx-auto mb-5" src="assets/img/meter.svg" />
+          <h1 class="text-white text-center text-4xl mb-2">873</h1>
+          <p class="text-gray-400 text-center text-xs font-bold">MILEAGE</p>
+        </div>
+        <div>
+          <img class="w-8 mx-auto mb-5" src="assets/img/electricity.svg" />
+          <h1 class="text-white text-center text-4xl mb-2">94%</h1>
+          <p class="text-gray-400 text-center text-xs font-bold">BATTERY</p>
+        </div>
+      </section>
+      <div
+        class="main-button border-2 border-green-800 rounded-full mx-auto w-32 h-32 mt-10 shadow-lg shadow-green-800 hover:shadow-xl hover:shadow-green-800 cursor-pointer"
+      >
+        <a href="#porsche-brand"
+          ><p
+            class="text-white text-center mx-auto py-8 border-2 border-green-800 rounded-full mt-4 font-bold w-24"
+          >
+            START
+          </p></a
+        >
+      </div>
+    </main>
+
+    <section
+      id="about"
+      class="grid grid-cols-2 max-lg:grid-cols-1 mx-32 max-sm:mx-10 mt-56"
+    >
+      <img
+        class="machine-image h-3/4 max-lg:mx-auto rounded-md"
+        src="assets/img/about.png"
+      />
+
+      <div class="mt-6 machine-description">
+        <h1 class="text-white text-3xl font-semibold mb-10">
+          Machines With Future Technology
+        </h1>
+        <p class="text-gray-500 mb-6">
+          See the future with high-performance electric cars produced by
+          renowned brands. They feature futuristic builds and designs with new
+          and innovative platforms that last a long time.
+        </p>
+        <button class="text-white bg-blue-600 hover:bg-blue-700 p-4 rounded-lg">
+          Know more
+        </button>
+      </div>
+    </section>
+
+    <section id="porsche-brand">
+      <h1
+        class="cards-section-title text-white font-bold text-3xl text-center w-1/2 mx-auto mt-36 max-md:mt-24"
+      >
+        Choose Your Electric Car Of The Porsche Brand
+      </h1>
+
+      <div
+        class="cards-container grid grid-cols-3 ml-36 mt-10 max-lg:grid-cols-2 max-md:grid-cols-1 mx-auto max-lg:ml-14"
+      >
+        <div class="card rounded-lg">
+          <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+            Porsche
+          </h1>
+          <p class="text-gray-400 text-center">Turbo 5</p>
+          <img
+            class="card-image mt-6 mb-2 px-6"
+            src="assets/img/popular2.png"
+          />
+          <div class="grid grid-cols-2">
+            <div class="kilometer flex">
+              <img class="card-icon w-4" src="assets/img/meter.svg" />
+              <p class="text-white">3.7 sec</p>
+            </div>
+
+            <div class="graph flex">
+              <img class="card-icon w-4" src="assets/img/graph.svg" />
+              <p class="text-white">356 Km/h</p>
+            </div>
+          </div>
+
+          <div class="electric flex mt-2">
+            <img class="card-icon w-4" src="assets/img/electric.svg" />
+            <p class="text-white">Electric</p>
+          </div>
+
+          <p class="card-price text-white text-xl font-bold">$175,900</p>
+        </div>
+        <div class="card rounded-lg">
+          <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+            Porsche
+          </h1>
+          <p class="text-gray-400 text-center">Taycan</p>
+          <img
+            class="card-image mt-6 mb-2 px-6"
+            src="assets/img/popular1.png"
+          />
+          <div class="grid grid-cols-2">
+            <div class="kilometer flex">
+              <img class="card-icon w-4" src="assets/img/meter.svg" />
+              <p class="text-white">3.5 sec</p>
+            </div>
+
+            <div class="graph flex">
+              <img class="card-icon w-4" src="assets/img/graph.svg" />
+              <p class="text-white">340 Km/h</p>
+            </div>
+          </div>
+
+          <div class="electric flex mt-2">
+            <img class="card-icon w-4" src="assets/img/electric.svg" />
+            <p class="text-white">Electric</p>
+          </div>
+
+          <p class="card-price text-white text-xl font-bold">$170,000</p>
+        </div>
+        <div class="card rounded-lg">
+          <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+            Porsche
+          </h1>
+          <p class="text-gray-400 text-center">Turbo 5 Cross</p>
+          <img
+            class="card-image mt-6 mb-2 px-6"
+            src="assets/img/popular3.png"
+          />
+          <div class="grid grid-cols-2">
+            <div class="kilometer flex">
+              <img class="card-icon w-4" src="assets/img/meter.svg" />
+              <p class="text-white">3.9 sec</p>
+            </div>
+
+            <div class="graph flex">
+              <img class="card-icon w-4" src="assets/img/graph.svg" />
+              <p class="text-white">370 Km/h</p>
+            </div>
+          </div>
+
+          <div class="electric flex mt-2">
+            <img class="card-icon w-4" src="assets/img/electric.svg" />
+            <p class="text-white">Electric</p>
+          </div>
+
+          <p class="card-price text-white text-xl font-bold">$200,000</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features mt-36 mb-20 w-1/2 mx-auto">
+      <h1
+        class="more-features text-white text-3xl text-center font-semibold mb-10"
+      >
+        More Features
+      </h1>
+      <div
+        class="features-cards grid grid-cols-3 ml-16 max-lg:ml-10 max-lg:grid-cols-1 max-md:ml-2 mb-16"
+      >
+        <div class="features-card card-1 max-lg:mb-6">
+          <p class="text-white text-center text-3xl font-semibold">480</p>
+          <p class="text-white text-center text-3xl">Km</p>
+          <p class="text-white text-center text-xl">Travel</p>
+        </div>
+        <div class="features-card card-2 max-lg:mb-6">
+          <p class="text-white text-center text-3xl font-semibold">800v</p>
+          <p class="text-white text-center text-3xl">Turbo</p>
+          <p class="text-white text-center text-xl">Charging</p>
+        </div>
+        <div class="features-card card-3">
+          <p class="text-white text-center text-3xl font-semibold">350</p>
+          <p class="text-white text-center text-3xl">Km</p>
+          <p class="text-white text-center text-xl">Range</p>
+        </div>
+      </div>
+
+      <!-- <img class="map" src="assets/img/map.svg" /> -->
+      <img
+        class="features-car mx-auto"
+        width="200px"
+        src="assets/img/features.png"
+      />
+    </section>
+
+    <div id="popular" class="flex justify-center space-x-10 mt-48 mb-12">
+      <img
+        class="car-brand all"
+        height="20px"
+        width="60px"
+        src="assets/img/A.svg"
+        title="All"
+      />
+      <img
+        class="car-brand tesla-button"
+        height="20px"
+        width="60px"
+        src="assets/img/tesla.svg"
+        title="Tesla"
+      />
+      <img
+        class="car-brand porsche-button"
+        height="20px"
+        width="60px"
+        src="assets/img/porsche.svg"
+        title="Porsche"
+      />
+      <img
+        class="car-brand audi-button"
+        height="20px"
+        width="60px"
+        src="assets/img/audi.svg"
+        title="Audi"
+      />
+    </div>
+    <div class="grid grid-cols-3 mt-8 ml-16 max-lg:grid-cols-1">
+      <div class="card card-selection tesla rounded-lg">
+        <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+          Tesla
+        </h1>
+        <p class="text-gray-400 text-center">Model X</p>
+        <img class="card-image mt-6 mb-2 px-6" src="assets/img/featured1.png" />
+        <p class="card-price text-white text-xl font-bold">$98,900</p>
+      </div>
+      <div class="card card-selection tesla rounded-lg">
+        <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+          Tesla
+        </h1>
+        <p class="text-gray-400 text-center">Model 3</p>
+        <img class="card-image mt-6 mb-2 px-6" src="assets/img/featured2.png" />
+        <p class="card-price text-white text-xl font-bold">$45,900</p>
+      </div>
+      <div class="card card-selection audi rounded-lg">
+        <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+          Audi
+        </h1>
+        <p class="text-gray-400 text-center">E-Tron</p>
+        <img class="card-image mt-6 mb-2 px-6" src="assets/img/featured3.png" />
+        <p class="card-price text-white text-xl font-bold">$175,900</p>
+      </div>
+      <div class="card card-selection porsche rounded-lg">
+        <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+          Porsche
+        </h1>
+        <p class="text-gray-400 text-center">Boxster 987</p>
+        <img class="card-image mt-6 mb-2 px-6" src="assets/img/featured4.png" />
+        <p class="card-price text-white text-xl font-bold">$126,900</p>
+      </div>
+      <div class="card card-selection porsche rounded-lg">
+        <h1 class="text-white text-3xl font-semibold text-center mt-4 mb-2">
+          Porsche
+        </h1>
+        <p class="text-gray-400 text-center">Panamera</p>
+        <img class="card-image mt-6 mb-2 px-6" src="assets/img/featured5.png" />
+        <p class="card-price text-white text-xl font-bold">$126,900</p>
+      </div>
+    </div>
+
+    <section id="offer" class="mt-44 mb-52 h-96">
+      <div
+        class="grid grid-cols-2 max-lg:grid-cols-1 mx-32 max-sm:mx-10 pt-16 pb-12 max-md:pt-6 special-offer-description"
+      >
+        <div class="mt-6 max-md:mt-0 w-3/4">
+          <h1 class="text-white text-3xl font-semibold mb-10">
+            Do you want to receive special offers ?
+          </h1>
+          <p class="text-gray-500 mb-6">
+            Be the first to receive all the information about our products and
+            new cars by email by subscribing to our mailing list.
+          </p>
+          <button
+            class="text-white bg-blue-600 hover:bg-blue-700 p-4 rounded-lg"
+          >
+            Subscribe Now
+          </button>
+        </div>
+        <img
+          class="special-offer-img max-lg:mt-12 w-11/12 max-lg:w-full"
+          src="assets/img/offer.png"
+        />
+      </div>
+    </section>
+
+    <div
+      class="grid grid-cols-6 mx-56 max-lg:mx-40 max-md:mx-20 max-md:grid-cols-3 max-md:space-y-2 mt-24 car-icons"
+    >
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/porsche.svg"
+      />
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/audi.svg"
+      />
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/tesla.svg"
+      />
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/lamborghini.svg"
+      />
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/bmw.svg"
+      />
+      <img
+        class="brightness-[20%] hover:brightness-150"
+        height="20px"
+        width="60px"
+        src="assets/img/mercedes.svg"
+      />
+    </div>
+    <footer
+      class="grid grid-cols-4 max-lg:grid-cols-2 grid-rows-1 max-lg:grid-rows-2 mt-36 mx-44 space-x-28 max-lg:mx-20 max-md:mx-2 max-md:space-x-2"
+    >
+      <div>
+        <a href="#" class="flex justify-start mb-4"
+          ><img class="w-8" src="assets/img/white-wheel.svg" />
+          <p class="text-white text-xl font-bold">Elecar</p>
+        </a>
+        <p class="text-gray-400 font-semibold">
+          We offer the best electric cars of the most recognized brands in the
+          world
+        </p>
+      </div>
+      <ul>
+        <h1 class="text-white text-2xl font-bold mb-4">Company</h1>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">About</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Cars</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">History</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Shop</a>
+        </li>
+      </ul>
+      <ul>
+        <h1 class="text-white text-2xl font-bold mb-4">Information</h1>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Request a quote</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Find a dealer</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Contact Us</a>
+        </li>
+        <li class="mb-2">
+          <a href="#" class="text-white font-semibold">Services</a>
+        </li>
+      </ul>
+      <ul>
+        <h1
+          class="text-white text-center text-2xl font-bold mb-4 max-md:mt-6 max-md:me-14"
+        >
+          Follow Us
+        </h1>
+        <li class="flex">
+          <a href="#"><img class="w-16 h-8" src="assets/img/facebook.svg" /></a>
+          <a href="#"
+            ><img class="w-16 h-8" src="assets/img/instagram.svg"
+          /></a>
+          <a href="#"><img class="w-16 h-8" src="assets/img/twitter.svg" /></a>
+        </li>
+      </ul>
+    </footer>
+    <div>
+      <p class="text-gray-300 text-center font-semibold mt-16 mb-4 copy-right">
+        &copy; All copyrights Reserved
+      </p>
+    </div>
+    <script src="assets/scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

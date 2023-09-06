@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(219, 4%, 4%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#offer {
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: rgba(31, 31, 31, 0.577);
+  width: 300px;
+  margin-top: 30px;
+}
+
+.card .card-image:hover {
+  animation-name: card-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes card-animation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+.card-icon {
+  margin-right: 4px;
+  margin-left: 12px;
+  margin-bottom: 4px;
+}
+
+.card-price {
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.features-card {
+  width: 140px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  padding: 0.75rem 2rem;
+}
+
+.car-brand {
+  filter: brightness(20%);
+  cursor: pointer;
+}
+
+.car-brand:hover {
+  filter: brightness(100%);
+}
+
+.hidden {
+  display: none;
+}
