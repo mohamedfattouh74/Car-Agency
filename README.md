@@ -1,5 +1,5 @@
 # Car Agency
-A simple fully responsive website for a fictional car agency carrying some of the real world cars of different brands.
+A simple fully responsive website for a Car Agency carrying some of the real world cars of different brands.
 
 ## Tools used:
 * HTML
